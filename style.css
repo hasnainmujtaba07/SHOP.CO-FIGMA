@@ -139,6 +139,11 @@
     cursor: pointer;
 }
 
+.cart-icon{
+    text-decoration: none;
+    color: #000;
+}
+
 /* banner-section */
 
 .banner {
@@ -178,12 +183,12 @@
     background-color: #000;
     color: #fff;
     border-radius: 20px;
-    transition: transform 0.5s ease;
+    transition: transform 0.9s ease;
 }
 
 .banner-btn:hover {
     color: #fff;
-    background-color: #2c2b2b;
+    background-color: #232222;
     transform: scale(1.1);
 }
 
@@ -319,16 +324,22 @@
     background-color: #ffffff;
     border: none;
     background-color: #ffffff;
-    box-shadow: #EBF1FF 0px 10px 10px 10px;
+    box-shadow: #EBF1FF 0px 12px 12px 12px;
     border-radius: 25px;
     cursor: pointer;
-    transition: transform 0.5s ease;
+    /* transition: transform 0.9s ease-in; */
+     transition: 
+        transform 0.9s ease,
+        background-color 0.9s ease,
+        color 0.9s ease,
+        height 0.9s ease;
 }
 
 .view-btn:hover {
     background-color: #000;
     color: #fff;
-    transform: scale(1.1);
+    transition: transform 0.9s ease-out;
+    transform: scale(1.2);
 }
 
 /* hero2-section */
@@ -420,12 +431,17 @@
     border-radius: 20px;
     box-shadow: #EBF1FF 0px 6px 6px 10px;
     cursor: pointer;
-    transition: transform 0.5s ease;
+    /* transition: transform 0.9s ease; */
+      transition: 
+        transform 0.9s ease,
+        background-color 0.9s ease,
+        color 0.9s ease,
+        height 0.9s ease;
 }
 
 .review-boxes:hover {
-    transform: scale(1.05);
-    transition: transform 0.5s ease;
+    transform: scale(1.10);
+    transition: transform 0.9s ease;
     background-color: #FFC633;
     color: #fff;
 }
@@ -511,14 +527,19 @@
     font-size: medium;
     border-radius: 20px;
     cursor: pointer;
-    transition: transform 0.5s ease;
+    /* transition: transform 0.9s ease; */
+     transition: 
+        transform 0.9s ease,
+        background-color 0.9s ease,
+        color 0.9s ease,
+        height 0.9s ease;
 }
 
 .banner2-btn:hover {
     background-color: #774ab6;
     color: #fff;
-    transform: scale(1.05);
-    transition: transform 0.5s ease;
+    transform: scale(1.10);
+    transition: transform 0.9s ease;
 }
 
 /* sub-footer-section */
@@ -834,7 +855,12 @@
     margin-top: 50px;
     background-color: #d3d3d3;
     cursor: pointer;
-    transition: transform 0.3s ease;
+    /* transition: transform 0.3s ease; */
+    transition: 
+        transform 0.9s ease,
+        background-color 0.9s ease,
+        color 0.9s ease,
+        height 0.9s ease;
 }
 
 .size-btn:hover,
@@ -867,11 +893,17 @@
     background-color: #000000;
     color: #fff;
     cursor: pointer;
-    transition: transform 0.5s ease;
+    /* transition: transform 0.5s ease; */
+       transition: 
+        transform 0.9s ease,
+        background-color 0.9s ease,
+        color 0.9s ease,
+        height 0.9s ease;
 }
 .add-cart-btn:hover{
     background-color: #2c2b2b;
     transform: scale(1.05);
+    height: 48px;
 }
 
 /* about-heading-section */
@@ -942,7 +974,12 @@
     color: #fff;
     border-radius: 25px;
     cursor: pointer;
-    transition: transform 0.5s ease;
+    /* transition: transform 0.5s ease; */
+       transition: 
+        transform 0.9s ease,
+        background-color 0.9s ease,
+        color 0.9s ease,
+        height 0.9s ease;
 }
 .about-review-btn:hover {
     background-color: #2c2b2b;
@@ -962,12 +999,17 @@
     border-radius: 20px;
     box-shadow: #EBF1FF 0px 6px 6px 10px;
     cursor: pointer;
-    transition: transform 0.5s ease;
+    /* transition: transform 0.5s ease; */
+       transition: 
+        transform 0.9s ease,
+        background-color 0.9s ease,
+        color 0.9s ease,
+        height 0.9s ease;
 }
 
 .review-boxes1:hover {
-    transform: scale(1.05);
-    transition: transform 0.5s ease;
+    transform: scale(1.06);
+    transition: transform 0.9s ease;
     background-color: #FFC633;
     color: #fff;
 }
@@ -989,7 +1031,12 @@
     box-shadow: #EBF1FF 0px 10px 10px 10px;
     border-radius: 25px;
     cursor: pointer;
-    transition: transform 0.5s ease;
+    /* transition: transform 0.5s ease; */
+       transition: 
+        transform 0.9s ease,
+        background-color 0.9s ease,
+        color 0.9s ease,
+        height 0.9s ease;
 }
 
 .view-btn2:hover {
@@ -1101,6 +1148,7 @@
     border-radius: 20px;
     margin: 5px 10px 0px 0px;
     border: 1px solid #d3d3d3;
+    cursor: pointer;
 }
 
 .cart-right-h2 {
@@ -1186,11 +1234,16 @@
     color: #fff;
     cursor: pointer;
     margin-left: 10px;
-    transition: transform 0.5s ease;
+    /* transition: transform 0.5s ease; */
+     transition: 
+        transform 0.9s ease,
+        background-color 0.9s ease,
+        color 0.9s ease,
+        height 0.9s ease;
 }
 .cart-inp-btn:hover{
     background-color: #2c2b2b;
-    transform: scale(1.05);
+    transform: scale(1.07);
 }
 
 .cart-checkout-btn{
@@ -1202,7 +1255,12 @@
     color: #fff;
     cursor: pointer;
     margin: 20px 0px 0px 10px;
-    transition: transform 0.5s ease;
+    /* transition: transform 0.5s ease; */
+     transition: 
+        transform 0.9s ease,
+        background-color 0.9s ease,
+        color 0.9s ease,
+        height 0.9s ease;
 }
 .cart-checkout-btn:hover{
     background-color: #2c2b2b;
@@ -1415,11 +1473,17 @@
 .div2-btn{
     height: 40px;
     width: 90px;
-    background-color: #c5c2c2;
+    background-color: #D3D3D3;
     border-radius: 20px;
     margin: 15px 0px 0px 10px;
-    border: 1px solid #7e7d7d;
-    transition: transform 0.5s ease;
+    border: 1px solid #D3D3D3;
+    cursor: pointer;
+    /* transition: transform 0.5s ease; */
+     transition: 
+        transform 0.9s ease,
+        background-color 0.9s ease,
+        color 0.9s ease,
+        height 0.9s ease;
 }
 .div2-btn:hover{
     color: #fff;
@@ -1429,11 +1493,17 @@
 .div2-btn2{
     height: 45px;
     width: 140px;
-    background-color: #c7c6c6;
+    background-color: #D3D3D3;
     border-radius: 20px;
     margin: 15px 0px 0px 10px;
-    border: 1px solid #abaaaa;
-    transition: transform 0.5s ease;
+    border: 1px solid #D3D3D3;
+    cursor: pointer;
+    /* transition: transform 0.5s ease; */
+     transition: 
+        transform 0.9s ease,
+        background-color 0.9s ease,
+        color 0.9s ease,
+        height 0.9s ease;
 }
 .div2-btn2:hover{
     color: #fff;
@@ -1471,9 +1541,15 @@
     height: 40px;
     width: 160px;
     border-radius: 20px;
-    background-color: #abaaaa;
-    border: 1px solid #abaaaa;
-    transition: transform 0.5s ease;
+    background-color: #D3D3D3;
+    border: 1px solid #D3D3D3;
+    cursor: pointer;
+    /* transition: transform 0.5s ease; */
+     transition: 
+        transform 0.9s ease,
+        background-color 0.9s ease,
+        color 0.9s ease,
+        height 0.9s ease;
 }
 .filter-btn:hover{
     color: #ffff;
@@ -1575,7 +1651,12 @@
     box-shadow: #ffffff 0px 10px 10px 10px;
     border-radius: 10px;
     cursor: pointer;
-    transition: transform 0.5s ease;
+    /* transition: transform 0.5s ease; */
+     transition: 
+        transform 0.9s ease,
+        background-color 0.9s ease,
+        color 0.9s ease,
+        height 0.9s ease;
 }
 .casual-btn1:hover {
     background-color: #000;
@@ -1586,16 +1667,29 @@
     height: 30px;
     width: 30px;
     margin: 0px 0px 0px 140px;
+    cursor: pointer;
+     transition: 
+        transform 0.9s ease,
+        background-color 0.9s ease,
+        color 0.9s ease,
+        height 0.9s ease;
 }
 .extra-btn{
     height: 30px;
     width: 30px;
     margin: 0px 0px 0px 5px;
+    cursor: pointer;
+     transition: 
+        transform 0.9s ease,
+        background-color 0.9s ease,
+        color 0.9s ease,
+        height 0.9s ease;
 }
 .extra-btn:hover,
 .extra-btn1:hover {
     background-color: #000;
     color: #fff;
+    transform: scale(1.1);
 }
 .casual-btn2{
     height: 40px;
@@ -1606,11 +1700,21 @@
     box-shadow: #ffffff 0px 10px 10px 10px;
     border-radius: 10px;
     cursor: pointer;
-    transition: transform 0.5s ease;
+    /* transition: transform 0.5s ease; */
+     transition: 
+        transform 0.9s ease,
+        background-color 0.9s ease,
+        color 0.9s ease,
+        height 0.9s ease;
 }
 .casual-btn2:hover {
     background-color: #000;
     color: #fff;
     transform: scale(1.1);
 }
+
+
+
+
+/* login-page -section here */
 
