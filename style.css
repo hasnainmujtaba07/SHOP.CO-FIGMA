@@ -139,7 +139,7 @@
     cursor: pointer;
 }
 
-.cart-icon{
+.cart-icon {
     text-decoration: none;
     color: #000;
 }
@@ -328,7 +328,7 @@
     border-radius: 25px;
     cursor: pointer;
     /* transition: transform 0.9s ease-in; */
-     transition: 
+    transition:
         transform 0.9s ease,
         background-color 0.9s ease,
         color 0.9s ease,
@@ -432,7 +432,7 @@
     box-shadow: #EBF1FF 0px 6px 6px 10px;
     cursor: pointer;
     /* transition: transform 0.9s ease; */
-      transition: 
+    transition:
         transform 0.9s ease,
         background-color 0.9s ease,
         color 0.9s ease,
@@ -528,7 +528,7 @@
     border-radius: 20px;
     cursor: pointer;
     /* transition: transform 0.9s ease; */
-     transition: 
+    transition:
         transform 0.9s ease,
         background-color 0.9s ease,
         color 0.9s ease,
@@ -856,7 +856,7 @@
     background-color: #d3d3d3;
     cursor: pointer;
     /* transition: transform 0.3s ease; */
-    transition: 
+    transition:
         transform 0.9s ease,
         background-color 0.9s ease,
         color 0.9s ease,
@@ -870,10 +870,11 @@
     transform: scale(1.1);
 }
 
-.about-carts-btns{
+.about-carts-btns {
     margin-top: 30px;
     display: flex;
 }
+
 .add-size-btn {
     height: 45px;
     width: 120px;
@@ -885,6 +886,7 @@
     margin-right: 20px;
     transition: transform 0.5s ease;
 }
+
 .add-cart-btn {
     height: 45px;
     width: 350px;
@@ -894,13 +896,14 @@
     color: #fff;
     cursor: pointer;
     /* transition: transform 0.5s ease; */
-       transition: 
+    transition:
         transform 0.9s ease,
         background-color 0.9s ease,
         color 0.9s ease,
         height 0.9s ease;
 }
-.add-cart-btn:hover{
+
+.add-cart-btn:hover {
     background-color: #2c2b2b;
     transform: scale(1.05);
     height: 48px;
@@ -918,17 +921,20 @@
     border-bottom: 1.5px solid #dfdfdf;
     cursor: pointer;
 }
+
 .about-h4 {
     font-size: 20px;
     font-weight: 500;
     color: #6A6969;
     margin-right: 20px;
 }
+
 .about-h4:hover {
     color: #000;
     border-bottom: 1.5px solid #000;
     /* padding: 0px 40px; */
 }
+
 .about2-h4 {
     font-size: 20px;
     font-weight: 500;
@@ -940,7 +946,7 @@
 
 /* about-review-section */
 
-.about-review-heading{
+.about-review-heading {
     display: flex;
 }
 
@@ -949,13 +955,15 @@
     font-weight: 700;
     margin: 60px 0px 0px 60px;
 }
+
 .about-review-p {
     color: #6A6969;
     margin: 70px 0px 0px 10px;
     line-height: 1.4;
     font-size: 16px;
 }
-.review-select{
+
+.review-select {
     height: 40px;
     margin-top: 50px;
     margin-left: 600px;
@@ -966,6 +974,7 @@
     border-radius: 20px;
     cursor: pointer;
 }
+
 .about-review-btn {
     height: 45px;
     width: 180px;
@@ -975,22 +984,24 @@
     border-radius: 25px;
     cursor: pointer;
     /* transition: transform 0.5s ease; */
-       transition: 
+    transition:
         transform 0.9s ease,
         background-color 0.9s ease,
         color 0.9s ease,
         height 0.9s ease;
 }
+
 .about-review-btn:hover {
     background-color: #2c2b2b;
     transform: scale(1.05);
 }
 
-.about-review-1{
+.about-review-1 {
     display: flex;
     gap: 30px;
     margin: 40px 0px 0px 60px;
 }
+
 .review-boxes1 {
     height: 230px;
     width: 550px;
@@ -1000,7 +1011,7 @@
     box-shadow: #EBF1FF 0px 6px 6px 10px;
     cursor: pointer;
     /* transition: transform 0.5s ease; */
-       transition: 
+    transition:
         transform 0.9s ease,
         background-color 0.9s ease,
         color 0.9s ease,
@@ -1013,6 +1024,7 @@
     background-color: #FFC633;
     color: #fff;
 }
+
 .review-h4 {
     margin: 20px 0px 0px 20px;
     font-size: 16px;
@@ -1032,7 +1044,7 @@
     border-radius: 25px;
     cursor: pointer;
     /* transition: transform 0.5s ease; */
-       transition: 
+    transition:
         transform 0.9s ease,
         background-color 0.9s ease,
         color 0.9s ease,
@@ -1058,11 +1070,12 @@
 }
 
 .cart-main {
-   height: 400px;
+    height: 400px;
     width: 90%;
     background-color: #ffffff;
     margin: 20px auto 80px auto;
 }
+
 .left-cart {
     height: 98%;
     width: 56%;
@@ -1072,7 +1085,8 @@
     margin: 5px 0px 0px 0px;
     border: 1px solid #d3d3d3;
 }
-.cart-product{
+
+.cart-product {
     height: 130px;
     width: 100%;
     background-color: rgb(255, 255, 255);
@@ -1082,47 +1096,58 @@
     cursor: pointer;
     border-bottom: 1px solid #d3d3d3;
 }
-.cart-img1{
+
+.cart-img1 {
     height: 90%;
     width: 120px;
     float: left;
     margin-left: 10px;
 }
-.cart-left-img1{
+
+.cart-left-img1 {
     height: 100%;
     width: 100%;
     border-radius: 20px;
     margin-bottom: 10px;
 }
-.cart-left-prices{
+
+.cart-left-prices {
     margin: 0px 0px 0px 5px;
 }
-.cart-left-h4{
+
+.cart-left-h4 {
     margin: 10px 0px 0px 0px;
 }
-.cart-left-h6{
+
+.cart-left-h6 {
     margin: 10px 0px 0px 10px;
     color: #6e6b6b;
 }
-.cart-left-h6-2{
+
+.cart-left-h6-2 {
     color: #464545;
 }
-.cart-left-price{
+
+.cart-left-price {
     margin: 10px 0px 0px 5px;
     font-weight: 900;
 }
-.cart-left1-extra{
+
+.cart-left1-extra {
     width: 110px;
     margin-left: 200px;
 }
-.cart-left2-extra{
+
+.cart-left2-extra {
     width: 110px;
     margin-left: 230px;
 }
-.cart-left3-extra{
+
+.cart-left3-extra {
     width: 110px;
     margin-left: 235px;
 }
+
 .cart-size-btn {
     height: 35px;
     width: 100px;
@@ -1134,7 +1159,8 @@
     margin: 40px 0px 0px 0px;
     transition: transform 0.5s ease;
 }
-.cart-left-img2{
+
+.cart-left-img2 {
     height: 30px;
     width: 30px;
     margin: 10px 0px 0px 60px;
@@ -1156,22 +1182,26 @@
     font-weight: 700;
     margin: 20px 0px 0px 20px;
 }
+
 .cart-div {
     display: flex;
     margin: 0px 0px 0px 0px;
     border-bottom: 1px solid #d3d3d3;
 }
+
 .right-cart-name {
     font-size: 16px;
     margin: 0px 0px 0px 20px;
     height: 130px;
     width: 150px;
 }
-.right-cart-h4{
+
+.right-cart-h4 {
     margin: 20px 0px 0px 0px;
     color: #6A6969;
     font-weight: 400;
 }
+
 .right-cart-price {
     font-size: 20px;
     font-weight: 500;
@@ -1179,44 +1209,51 @@
     width: 90px;
     margin: 0px 0px 0px 250px;
 }
-.right-cart1-h4{
+
+.right-cart1-h4 {
     margin: 18px 0px 0px 0px;
     color: #0c0c0c;
     font-weight: 700;
     margin-left: 20px;
 }
-.right-cart2-h4{
+
+.right-cart2-h4 {
     margin: 15px 0px 0px 0px;
     color: #d82323;
     font-weight: 700;
     margin-left: 17px;
 }
-.right-cart3-h4{
+
+.right-cart3-h4 {
     margin: 15px 0px 0px 25px;
     color: #0c0c0c;
     font-weight: 700;
 }
-.cart-total{
+
+.cart-total {
     display: flex;
     justify-content: space-between;
     margin: 20px 20px 0px 20px;
 }
-.right-cart-h3{
+
+.right-cart-h3 {
     font-size: 24px;
     font-weight: 500;
     color: #6e6b6b;
 }
-.right-cart4-h4{
+
+.right-cart4-h4 {
     color: #0c0c0c;
     font-weight: 700;
     font-size: 22px;
 }
-.cart-application{
-    display: flex;   
+
+.cart-application {
+    display: flex;
     margin: 10px 0px 0px 10px;
 }
 
-.cart-input{
+.cart-input {
     height: 40px;
     width: 280px;
     border-radius: 20px;
@@ -1225,7 +1262,8 @@
     border: none;
     background-color: #d3d3d3;
 }
-.cart-inp-btn{
+
+.cart-inp-btn {
     height: 40px;
     width: 140px;
     border: none;
@@ -1235,18 +1273,19 @@
     cursor: pointer;
     margin-left: 10px;
     /* transition: transform 0.5s ease; */
-     transition: 
+    transition:
         transform 0.9s ease,
         background-color 0.9s ease,
         color 0.9s ease,
         height 0.9s ease;
 }
-.cart-inp-btn:hover{
+
+.cart-inp-btn:hover {
     background-color: #2c2b2b;
     transform: scale(1.07);
 }
 
-.cart-checkout-btn{
+.cart-checkout-btn {
     height: 50px;
     width: 450px;
     border: none;
@@ -1256,13 +1295,14 @@
     cursor: pointer;
     margin: 20px 0px 0px 10px;
     /* transition: transform 0.5s ease; */
-     transition: 
+    transition:
         transform 0.9s ease,
         background-color 0.9s ease,
         color 0.9s ease,
         height 0.9s ease;
 }
-.cart-checkout-btn:hover{
+
+.cart-checkout-btn:hover {
     background-color: #2c2b2b;
     transform: scale(1.05);
 }
@@ -1273,13 +1313,14 @@
 /* casual-section here   */
 
 
-.casual-page{
+.casual-page {
     height: 1200px;
     width: 85%;
     background-color: #ffffff;
     margin: 0px auto 30px auto;
 }
-.casual-page-left{
+
+.casual-page-left {
     height: 87%;
     width: 20%;
     margin-top: 20px;
@@ -1290,7 +1331,7 @@
     cursor: pointer;
 }
 
-.casual-left-div1{
+.casual-left-div1 {
     height: 55px;
     width: 100%;
     /* background-color: #f2f0f1; */
@@ -1299,139 +1340,161 @@
     display: flex;
     cursor: pointer;
 }
-.div1-h3{
+
+.div1-h3 {
     font-size: 20px;
     margin: 15px 0px 0px 10px;
 }
-.div1-h2{
+
+.div1-h2 {
     margin: 10px 0px 0px 100px;
 }
 
-.casual-left-div2{
+.casual-left-div2 {
     height: 190px;
     width: 100%;
     border-bottom: 1px solid #c6c4c4;
     display: flex;
 }
-.div2-h4{
+
+.div2-h4 {
     color: #7e7d7d;
     font-size: 16px;
     margin: 15px 0px 0px 10px;
     font-weight: 300;
 }
-.div2-h{
+
+.div2-h {
     color: #6A6969;
     margin: 12px 0px 0px 40px;
 }
-.casual-extra-div1{
+
+.casual-extra-div1 {
     height: 100%;
     width: 70%;
 }
-.casual-extra-div2{
+
+.casual-extra-div2 {
     height: 100%;
     width: 30%;
 }
 
-.casual-left-div3{
+.casual-left-div3 {
     height: 70px;
     border-bottom: 1px solid #c6c4c4;
 }
-.div3-h4{
+
+.div3-h4 {
     padding: 8px 0px 0px 10px;
 }
-.casual-div3-div1{
-   width: 100%;
-   height: 50%;
-   display: flex;
+
+.casual-div3-div1 {
+    width: 100%;
+    height: 50%;
+    display: flex;
 }
-.casual-div3-div2{
+
+.casual-div3-div2 {
     width: 100%;
     height: 50%;
 }
 
 
 
-.casual-left-div4{
+.casual-left-div4 {
     height: 100px;
     border-bottom: 1px solid #c6c4c4;
 }
-.div4-div1{
+
+.div4-div1 {
     width: 100%;
     height: 34%;
     display: flex;
 }
-.div-h4{
+
+.div-h4 {
     margin: 5px 0px 0px 120px;
 }
-.div4-div2{
+
+.div4-div2 {
     width: 100%;
     height: 33%;
     display: flex;
     gap: 10px;
 }
-.color1{
+
+.color1 {
     height: 25px;
     width: 25px;
     border-radius: 50px;
     background-color: #00C12B;
     margin: 5px 0px 0px 20px;
 }
-.color2{
+
+.color2 {
     height: 25px;
     width: 25px;
     border-radius: 50px;
     background-color: #F50606;
     margin-top: 3px;
 }
-.color3{
+
+.color3 {
     height: 25px;
     width: 25px;
     border-radius: 50px;
     background-color: #F5DD06;
     margin-top: 3px;
 }
-.color4{
+
+.color4 {
     height: 25px;
     width: 25px;
     border-radius: 50px;
     background-color: #F57906;
     margin-top: 3px;
 }
-.color5{
+
+.color5 {
     height: 25px;
     width: 25px;
     border-radius: 50px;
     background-color: #06CAF5;
     margin-top: 3px;
 }
-.div4-div3{
+
+.div4-div3 {
     width: 100%;
     height: 33%;
     display: flex;
     gap: 10px;
 }
-.color6{
+
+.color6 {
     height: 25px;
     width: 25px;
     border-radius: 50px;
     background-color: #063AF5;
     margin: 5px 0px 0px 20px;
 }
-.color7{
+
+.color7 {
     height: 25px;
     width: 25px;
     border-radius: 50px;
     background-color: #7D06F5;
     margin-top: 3px;
 }
-.color8{
+
+.color8 {
     height: 25px;
     width: 25px;
     border-radius: 50px;
     background-color: #F506A4;
     margin-top: 3px;
 }
-.color9{
+
+.color9 {
     height: 25px;
     width: 25px;
     border-radius: 50px;
@@ -1439,7 +1502,8 @@
     border: 1px solid #464545;
     margin-top: 3px;
 }
-.color10{
+
+.color10 {
     height: 25px;
     width: 25px;
     border-radius: 50px;
@@ -1447,30 +1511,34 @@
     margin-top: 3px;
 }
 
-.casual-left-div5{
+.casual-left-div5 {
     height: 350px;
     width: 100%;
     border-bottom: 1px solid #c6c4c4;
 }
-.div5-div1{
+
+.div5-div1 {
     width: 100%;
     height: 50px;
     display: flex;
     gap: 10px;
 }
-.div5-h4{
+
+.div5-h4 {
     margin: 10px 0px 0px 10px;
 }
-.div0-h4{
+
+.div0-h4 {
     margin: 7px 0px 0px 120px;
 }
 
-.div5-div2{
+.div5-div2 {
     height: 70px;
     display: flex;
     gap: 5px;
 }
-.div2-btn{
+
+.div2-btn {
     height: 40px;
     width: 90px;
     background-color: #D3D3D3;
@@ -1479,18 +1547,20 @@
     border: 1px solid #D3D3D3;
     cursor: pointer;
     /* transition: transform 0.5s ease; */
-     transition: 
+    transition:
         transform 0.9s ease,
         background-color 0.9s ease,
         color 0.9s ease,
         height 0.9s ease;
 }
-.div2-btn:hover{
+
+.div2-btn:hover {
     color: #fff;
     background-color: #000;
-    transform: scale(1.1);   
+    transform: scale(1.1);
 }
-.div2-btn2{
+
+.div2-btn2 {
     height: 45px;
     width: 140px;
     background-color: #D3D3D3;
@@ -1499,44 +1569,48 @@
     border: 1px solid #D3D3D3;
     cursor: pointer;
     /* transition: transform 0.5s ease; */
-     transition: 
+    transition:
         transform 0.9s ease,
         background-color 0.9s ease,
         color 0.9s ease,
         height 0.9s ease;
 }
-.div2-btn2:hover{
+
+.div2-btn2:hover {
     color: #fff;
     background-color: #000;
-    transform: scale(1.1);   
+    transform: scale(1.1);
 }
 
-.div5-div3{
+.div5-div3 {
     height: 70px;
     display: flex;
 }
-.div5-div4{
+
+.div5-div4 {
     height: 70px;
     display: flex;
 }
-.div5-div5{
+
+.div5-div5 {
     height: 70px;
 }
 
-.div2-h1{
+.div2-h1 {
     color: #6A6969;
     margin: 0px 0px 0px 50px;
 }
 
-.extra-div-casual{
+.extra-div-casual {
     display: flex;
 }
-.casual-extra-div4{
+
+.casual-extra-div4 {
     height: 100%;
     width: 80%;
 }
 
-.filter-btn{
+.filter-btn {
     margin: 10px 0px 0px 20px;
     height: 40px;
     width: 160px;
@@ -1545,22 +1619,23 @@
     border: 1px solid #D3D3D3;
     cursor: pointer;
     /* transition: transform 0.5s ease; */
-     transition: 
+    transition:
         transform 0.9s ease,
         background-color 0.9s ease,
         color 0.9s ease,
         height 0.9s ease;
 }
-.filter-btn:hover{
+
+.filter-btn:hover {
     color: #ffff;
     background-color: #000;
-    transform: scale(1.1);   
+    transform: scale(1.1);
 }
 
 
 
 
-.casual-page-right{
+.casual-page-right {
     height: 100%;
     width: 79%;
     background-color: #ffffff;
@@ -1569,26 +1644,31 @@
     cursor: pointer;
     border-bottom: 1px solid #d3d3d3;
 }
-.casual-right-headings{
+
+.casual-right-headings {
     display: flex;
     justify-content: space-between;
     /* gap: 50px; */
 }
-.casual-right-h2{
+
+.casual-right-h2 {
     font-size: 26px;
     font-weight: 700;
     margin: 18px 0px 0px 20px;
 }
-.casual-right-p{
+
+.casual-right-p {
     color: #6A6969;
     margin: 20px 20px 0px 0px;
     line-height: 1.4;
     font-size: 16px;
 }
-.strong{
+
+.strong {
     font-weight: 700;
     color: #000;
 }
+
 .casual-cart1 {
     display: flex;
     justify-content: center;
@@ -1637,12 +1717,12 @@
     font-weight: 700;
 }
 
-.casual-buttons{
+.casual-buttons {
     display: flex;
     justify-content: center;
 }
 
-.casual-btn1{
+.casual-btn1 {
     height: 40px;
     width: 120px;
     margin: 0px 0px 0px 230px;
@@ -1652,46 +1732,51 @@
     border-radius: 10px;
     cursor: pointer;
     /* transition: transform 0.5s ease; */
-     transition: 
+    transition:
         transform 0.9s ease,
         background-color 0.9s ease,
         color 0.9s ease,
         height 0.9s ease;
 }
+
 .casual-btn1:hover {
     background-color: #000;
     color: #fff;
     transform: scale(1.1);
 }
-.extra-btn1{
+
+.extra-btn1 {
     height: 30px;
     width: 30px;
     margin: 0px 0px 0px 140px;
     cursor: pointer;
-     transition: 
+    transition:
         transform 0.9s ease,
         background-color 0.9s ease,
         color 0.9s ease,
         height 0.9s ease;
 }
-.extra-btn{
+
+.extra-btn {
     height: 30px;
     width: 30px;
     margin: 0px 0px 0px 5px;
     cursor: pointer;
-     transition: 
+    transition:
         transform 0.9s ease,
         background-color 0.9s ease,
         color 0.9s ease,
         height 0.9s ease;
 }
+
 .extra-btn:hover,
 .extra-btn1:hover {
     background-color: #000;
     color: #fff;
     transform: scale(1.1);
 }
-.casual-btn2{
+
+.casual-btn2 {
     height: 40px;
     width: 120px;
     margin: 0px 0px 0px 180px;
@@ -1701,20 +1786,15 @@
     border-radius: 10px;
     cursor: pointer;
     /* transition: transform 0.5s ease; */
-     transition: 
+    transition:
         transform 0.9s ease,
         background-color 0.9s ease,
         color 0.9s ease,
         height 0.9s ease;
 }
+
 .casual-btn2:hover {
     background-color: #000;
     color: #fff;
     transform: scale(1.1);
 }
-
-
-
-
-/* login-page -section here */
-
